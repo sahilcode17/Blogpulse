@@ -5,7 +5,7 @@ mongooose = require("mongoose"),
 express  = require("express")
 app = express()
  
-mongooose.connect("mongodb://localhost/blogapp")
+mongooose.connect("mongodb://localhost/blogapp" , {useNewUrlParser:true})
 app.set("view engine","ejs")
 app.use(express.static("public"))
 app.use(bodyparser.urlencoded({extended:true}))
