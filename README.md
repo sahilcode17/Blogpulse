@@ -1,2 +1,2 @@
 # Blogpulse
-blog app alows to add edit update delete an app . built with nodejs
+blog app alows to add edit update delete the post. built with nodejs
